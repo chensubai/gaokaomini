@@ -1,0 +1,43 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.20.1",
+  "appid": "wx179b05243b054d07",
+  "projectname": "我的重生之高考",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "记录页面",
+          "pathName": "pages/history/index",
+          "query": "id=2533ecc298"
+        },
+        {
+          "name": "错题页面",
+          "pathName": "pages/wrongAnswer/index",
+          "query": ""
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}
