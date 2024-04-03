@@ -1,5 +1,6 @@
 // pages/start/index.js
-
+const config = require('../../config.js');
+const { ServerDomain } = config;
 Page({
 
   /**
@@ -31,7 +32,7 @@ Page({
             if (res.code) {
               //发起网络请求
               wx.request({
-                url: 'http://hengchuang.test/v1/test/ping',
+                url: ServerDomain.API_URL + '/v1/test/ping',
                 data: {
                   code: res.code
                 },
